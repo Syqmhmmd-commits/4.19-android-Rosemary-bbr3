@@ -1,0 +1,387 @@
+  GEN     ./Makefile
+scripts/kconfig/conf  --syncconfig Kconfig
+drivers/misc/mediatek/base/power/Kconfig:90:warning: ignoring type redefinition of 'MTK_QOS_FRAMEWORK' from 'tristate' to 'bool'
+drivers/input/touchscreen/mediatek/goodix_berlin_driver/Kconfig:4:warning: ignoring type redefinition of 'TOUCHSCREEN_GOODIX_BRL' from 'bool' to 'tristate'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/soc/mediatek/Kconfig:7:warning: ignoring type redefinition of 'MTK_CMDQ' from 'bool' to 'tristate'
+drivers/input/touchscreen/mediatek/hxchipset_hx83102p/Kconfig:19:warning: choice value used outside its choice group
+drivers/input/touchscreen/mediatek/hxchipset_hx83102p/Kconfig:28:warning: choice value used outside its choice group
+drivers/input/touchscreen/mediatek/hxchipset_hx83102p/Kconfig:16:warning: choice default symbol 'TOUCHSCREEN_HIMAX_INCELL' is not contained in the choice
+
+WARNING: unmet direct dependencies detected for MTK_CACHE_PARITY_CHECK
+  Depends on [n]: MTK_SDA [=n]
+  Selected by [y]:
+  - MACH_MT6785 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_CACHE_PARITY_CHECK
+  Depends on [n]: MTK_SDA [=n]
+  Selected by [y]:
+  - MACH_MT6785 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_CACHE_PARITY_CHECK
+  Depends on [n]: MTK_SDA [=n]
+  Selected by [y]:
+  - MACH_MT6785 [=y]
+  UPD     include/config/kernel.release
+  GEN     ./Makefile
+  UPD     include/generated/utsrelease.h
+*GPU defined GPU BM QoS 2.0-419
+$GED: CONFIG_MTK_PLATFORM is ["mt6785"]
+*MTK_GPU_VERSION 2 = valhall
+*MTK_GPU_VERSION 3 = r32p1
+*GPU CONFIG_MTK_FREQ_HOPPING = Y
+*GPU MT_GPUFREQ_BRINGUP = 0
+*GPU MT_GPUFREQ_GED_READY = 1
+*GPU MT_GPUFREQ_KICKER_PBM_READY = 1
+*GPU MT_GPUFREQ_STATIC_PWR_READY2USE = 1
+*GPU MT_GPUFREQ_LOW_BATT_VOLT_PROTECT = 1
+*GPU MT_GPUFREQ_BATT_PERCENT_PROTECT = 1
+*GPU MT_GPUFREQ_BATT_OC_PROTECT = 1
+*GPU MT_GPUFREQ_DYNAMIC_POWER_TABLE_UPDATE = 1
+*GPU MT_GPUFREQ_SETTLE_TIME_PROFILE = 0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6785"
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6785"
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6785"
+  Using .. as source for kernel
+../drivers/misc/mediatek/base/power/cpufreq_v1/src/Makefile:89: "use CONFIG_MTK_TINYSYS_SSPM_V1"
+../drivers/misc/mediatek/base/power/ppm_v3/src/Makefile:110: USE_PPM_CPI
+../drivers/misc/mediatek/base/power/qos/Makefile:45: kelebihan text sesudah 'else' directive
+ION:enable mtk ion
+../drivers/misc/mediatek/ccu/src/Makefile:33: CCU_MAKE_FILE_CALLED
+..
+  CALL    ../scripts/checksyscalls.sh
+..
+"CONFIG_MICROTRUST_TEE_VERSION="400""
+FDVT: Drv use mt6785 folder
+"CONFIG_MICROTRUST_TEE_SUPPORT=y"
+"CONFIG_MICROTRUST_TZ_DRIVER=Y"
+"CONFIG_MICROTRUST_VFS_DRIVER=Y"
+"CONFIG_MICROTRUST_FP_DRIVER=Y"
+"CONFIG_MICROTRUST_DEBUG="
+"CONFIG_MICROTRUST_TEST_DRIVERS="
+..
+..
+ BT_PLATFORM = 6785
+ srctree = ..
+../drivers/misc/mediatek/connectivity/common/Kbuild:112: wmt_drv build-in boot.img
+../drivers/misc/mediatek/connectivity/common/Kbuild:195: KERNEL_VERSION_SUPPORT_CHIPID_LIST=[6785]
+ConnFem: Customer load
+[fm_drv:Kbuild] M = 
+[fm_drv:Kbuild] CFG_FM_PLAT = connac1x
+[fm_drv:Kbuild] CFG_BUILD_CONNAC2 = false
+[fm_drv:Kbuild] CFG_FM_CHIP_ID = 
+[fm_drv:Kbuild] CFG_FM_CHIP = mt6631
+[fm_drv:Kbuild] fmradio_drv_connac1x build-in boot.img
+[fm_drv:Kbuild] src = drivers/misc/mediatek/connectivity/fmradio
+[fm_drv:Kbuild] KO_CODE_PATH = ../drivers/misc/mediatek/connectivity/fmradio
+../drivers/misc/mediatek/connectivity/gps/Makefile:17: GPS_CHIP_ID != common
+../drivers/misc/mediatek/connectivity/wlan/adaptor/Makefile:50: wmt_chrdev_wifi build-in boot.img
+os option: linux
+$MTK_PLATFORM is [mt6785]
+$WLAN_CHIP_ID is [6785]
+$MTK_COMBO_CHIP is [CONNAC]
+../drivers/misc/mediatek/connectivity/wlan/core/gen4m/Makefile:534: wlan_drv_gen4m build-in boot.img
+$CCFLAG is [{-Wno-unused-variable -Wno-unused-value -Wno-unused-result -Wno-format -Wno-parentheses -DDRIVER_BUILD_DATE='"20260916212200"' -UMT6620 -UMT6628 -UMT5931 -UMT6630 -UMT6632 -UMT7663 -USOC2_1X1 -USOC2_2X2 -UUT_TEST_MODE -UMT7915 -USOC3_0 -UMT7961 -USOC5_0 -USOC7_0 -DCONFIG_WLAN_MTK_EMI=1 -DCFG_SUPPORT_DEBUG_FS=0 -DWLAN_INCLUDE_PROC -DCFG_SUPPORT_AGPS_ASSIST=0 -DCFG_SUPPORT_TSF_USING_BOOTTIME=1 -DARP_MONITER_ENABLE=1 -DLINUX -DCONNAC -DCFG_ENABLE_HOST_BUS_TIMEOUT=0 -DCFG_SUPPORT_SET_IPV6_NETWORK=0 -DCFG_ANDORID_CONNINFRA_SUPPORT=0 -DCFG_SUPPORT_CONNAC2X=0 -DCFG_SUPPORT_CONNAC2X_2x2=0 -DCFG_SUPPORT_802_11AX=0 -DCFG_SUPPORT_802_11BE=0 -DCFG_SUPPORT_WIFI_6G=0 -DCFG_SUPPORT_TWT=0 -DCFG_TWT_SMART_STA=0 -DCFG_DRIVER_INITIAL_RUNNING_MODE=3 -DCFG_SUPPORT_DUAL_STA=1 -DCFG_MTK_ANDROID_WMT=1 -DCFG_SUPPORT_CONNINFRA=0 -DCFG_ANDORID_CONNINFRA_COREDUMP_SUPPORT=0 -DCFG_SUPPORT_PRE_ON_PHY_ACTION=0 -I../drivers/misc/mediatek/connectivity/common/common_main/include -I../drivers/misc/mediatek/connectivity/common/common_main/linux/include -DWMT_IDC_SUPPORT=1 -DMTK_WCN_WMT_STP_EXP_SYMBOL_ABSTRACT -DCFG_SUPPORT_POWER_THROTTLING=0 -DCFG_MTK_ANDROID_EMI=1 -DCFG_WIFI_IP_SET=2 -DCFG_BUILT_IN_DRIVER=1 -DCFG_SUPPORT_CHNL_CONFLICT_REVISE=0 -DCFG_SUPPORT_AEE=0 -DBUILD_QA_DBG=0 -D_HIF_AXI=1 -DCFG_DOWNLOAD_DYN_MEMORY_MAP=0 -DCFG_SUPPORT_PASSPOINT=1 -DCFG_HS20_DEBUG=1 -DCFG_MET_PACKET_TRACE_SUPPORT=1 -DCFG_MET_TAG_SUPPORT=0 -DCFG_TC3_FEATURE=0 -DCFG_TC10_FEATURE=0 -DCONFIG_MTK_MD_SUPPORT=1 -DCFG_TC1_FEATURE=0 -DCFG_SUPPORT_NAN=0 -DDBG=0 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/nic -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/mgmt -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/chips -I../drivers/misc/mediatek/base/power/include/ -I../drivers/misc/mediatek/include/mt-plat/ -I../drivers/misc/mediatek/performance/include/ -I../drivers/misc/mediatek/emi/mt6785 -I../drivers/misc/mediatek/emi/submodule -I../drivers/misc/mediatek/pmic/include/ -I../drivers/misc/mediatek/power_throttling/ -I../drivers/misc/mediatek/connectivity/common -I../drivers/devfreq/ -I../net -I../drivers/misc/mediatek/connectivity/connfem/include/ -DCFG_MTK_MDDP_SUPPORT=0 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/common/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/axi/include -DCONFIG_WLAN_DRV_BUILD_IN=1 -DCFG_SUPPORT_PKT_OFLD=0 -DCONFIG_WLAN_SERVICE=1 -DCONFIG_TEST_ENGINE_OFFLOAD=1 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/service/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/osal/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/hal/include}]
+$MTK_WLAN_SERVICE is [{wlan_service/agent/agent.o wlan_service/service/service_test.o wlan_service/service/test_engine.o wlan_service/glue/osal/gen4m/sys_adaption_gen4m.o wlan_service/glue/osal/gen4m/net_adaption_gen4m.o wlan_service/glue/hal/gen4m/operation_gen4m.o}]
+CONFIG_MTK_PLATFORM_CCCI := mt6785
+CONFIG_MTK_PLATFORM_CCCI := "mt6785"
+MTK_PLATFORM_CCCI := mt6785
+************  drivers/trusty/mtee-kree mk ************
+imgsensor drv by platform ov64b40semco_mipi_raw/ ov64b40ofilm_mipi_raw/ ov13b10sunny_mipi_raw/ ov13b10ofilm_mipi_raw/ imx355ofilm_mipi_raw/ imx355sunny_mipi_raw/ ov02b1bofilm_mipi_raw/ gc02m1ofilm_mipi_raw/ gc02m1sunny_mipi_raw/ gc02m1bsunny_mipi_mono/
+imgsensor drv by platform 
+M4U platform folder:"mt6785"
+M4U version:3.2
+TCORE_UT_TESTS_SUPPORT = n
+TCORE_PROFILING_SUPPORT = n
+TCORE_PROFILING_AUTO_DUMP = n
+TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
+  CHK     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.a
+  CC      kernel/sys.o
+  CC      drivers/base/firmware_loader/fallback_table.o
+  CC      drivers/base/firmware_loader/main.o
+  CC      kernel/trace/trace.o
+  AR      drivers/base/firmware_loader/built-in.a
+  AR      drivers/base/built-in.a
+*GPU defined GPU BM QoS 2.0-419
+$GED: CONFIG_MTK_PLATFORM is ["mt6785"]
+*MTK_GPU_VERSION 2 = valhall
+  CC      kernel/module.o
+*MTK_GPU_VERSION 3 = r32p1
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6785"
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6785"
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6785"
+*GPU CONFIG_MTK_FREQ_HOPPING = y
+*GPU MT_GPUFREQ_BRINGUP = 0
+*GPU MT_GPUFREQ_GED_READY = 1
+*GPU MT_GPUFREQ_KICKER_PBM_READY = 1
+*GPU MT_GPUFREQ_STATIC_PWR_READY2USE = 1
+*GPU MT_GPUFREQ_LOW_BATT_VOLT_PROTECT = 1
+*GPU MT_GPUFREQ_BATT_PERCENT_PROTECT = 1
+*GPU MT_GPUFREQ_BATT_OC_PROTECT = 1
+*GPU MT_GPUFREQ_DYNAMIC_POWER_TABLE_UPDATE = 1
+*GPU MT_GPUFREQ_SETTLE_TIME_PROFILE = 0
+  GZIP    kernel/config_data.gz
+  CHK     kernel/kheaders_data.tar.xz
+  GEN     kernel/kheaders_data.tar.xz
+  AR      kernel/trace/built-in.a
+../drivers/misc/mediatek/base/power/cpufreq_v1/src/Makefile:89: "use CONFIG_MTK_TINYSYS_SSPM_V1"
+..
+..
+FDVT: Drv use mt6785 folder
+../drivers/misc/mediatek/ccu/src/Makefile:33: CCU_MAKE_FILE_CALLED
+../drivers/misc/mediatek/base/power/ppm_v3/src/Makefile:110: USE_PPM_CPI
+..
+..
+../drivers/misc/mediatek/base/power/qos/Makefile:45: kelebihan text sesudah 'else' directive
+../drivers/misc/mediatek/base/power/upower_v2/Makefile:33: kelebihan text sesudah 'ifeq' directive
+ BT_PLATFORM = 6785
+ srctree = ..
+../drivers/misc/mediatek/connectivity/common/Kbuild:112: wmt_drv build-in boot.img
+../drivers/misc/mediatek/connectivity/common/Kbuild:195: KERNEL_VERSION_SUPPORT_CHIPID_LIST=[6785]
+ConnFem: Customer load
+[fm_drv:Kbuild] M = 
+[fm_drv:Kbuild] CFG_FM_PLAT = connac1x
+[fm_drv:Kbuild] CFG_BUILD_CONNAC2 = false
+[fm_drv:Kbuild] CFG_FM_CHIP_ID = 
+[fm_drv:Kbuild] CFG_FM_CHIP = mt6631
+[fm_drv:Kbuild] fmradio_drv_connac1x build-in boot.img
+[fm_drv:Kbuild] src = drivers/misc/mediatek/connectivity/fmradio
+[fm_drv:Kbuild] KO_CODE_PATH = ../drivers/misc/mediatek/connectivity/fmradio
+../drivers/misc/mediatek/connectivity/gps/Makefile:17: GPS_CHIP_ID != common
+../drivers/misc/mediatek/connectivity/gps/Makefile:229: is connsys_chip judge by CONFIG_MTK_COMBO_CHIP
+../drivers/misc/mediatek/connectivity/wlan/adaptor/Makefile:50: wmt_chrdev_wifi build-in boot.img
+os option: linux
+$MTK_PLATFORM is [mt6785]
+$WLAN_CHIP_ID is [6785]
+$MTK_COMBO_CHIP is [CONNAC]
+../drivers/misc/mediatek/connectivity/wlan/core/gen4m/Makefile:534: wlan_drv_gen4m build-in boot.img
+$CCFLAG is [{-Wno-unused-variable -Wno-unused-value -Wno-unused-result -Wno-format -Wno-parentheses -DDRIVER_BUILD_DATE='"20260916212204"' -UMT6620 -UMT6628 -UMT5931 -UMT6630 -UMT6632 -UMT7663 -USOC2_1X1 -USOC2_2X2 -UUT_TEST_MODE -UMT7915 -USOC3_0 -UMT7961 -USOC5_0 -USOC7_0 -DCONFIG_WLAN_MTK_EMI=1 -DCFG_SUPPORT_DEBUG_FS=0 -DWLAN_INCLUDE_PROC -DCFG_SUPPORT_AGPS_ASSIST=0 -DCFG_SUPPORT_TSF_USING_BOOTTIME=1 -DARP_MONITER_ENABLE=1 -Wno-unused-but-set-variable -DLINUX -DCONNAC -DCFG_ENABLE_HOST_BUS_TIMEOUT=0 -DCFG_SUPPORT_SET_IPV6_NETWORK=0 -DCFG_ANDORID_CONNINFRA_SUPPORT=0 -DCFG_SUPPORT_CONNAC2X=0 -DCFG_SUPPORT_CONNAC2X_2x2=0 -DCFG_SUPPORT_802_11AX=0 -DCFG_SUPPORT_802_11BE=0 -DCFG_SUPPORT_WIFI_6G=0 -DCFG_SUPPORT_TWT=0 -DCFG_TWT_SMART_STA=0 -DCFG_DRIVER_INITIAL_RUNNING_MODE=3 -DCFG_SUPPORT_DUAL_STA=1 -DCFG_MTK_ANDROID_WMT=1 -DCFG_SUPPORT_CONNINFRA=0 -DCFG_ANDORID_CONNINFRA_COREDUMP_SUPPORT=0 -DCFG_SUPPORT_PRE_ON_PHY_ACTION=0 -I../drivers/misc/mediatek/connectivity/common/common_main/include -I../drivers/misc/mediatek/connectivity/common/common_main/linux/include -DWMT_IDC_SUPPORT=1 -DMTK_WCN_WMT_STP_EXP_SYMBOL_ABSTRACT -DCFG_SUPPORT_POWER_THROTTLING=0 -DCFG_MTK_ANDROID_EMI=1 -DCFG_WIFI_IP_SET=2 -DCFG_BUILT_IN_DRIVER=1 -DCFG_SUPPORT_CHNL_CONFLICT_REVISE=0 -DCFG_SUPPORT_AEE=1 -DBUILD_QA_DBG=0 -DCFG_WPS_DISCONNECT=1 -D_HIF_AXI=1 -DCFG_DOWNLOAD_DYN_MEMORY_MAP=0 -DCFG_SUPPORT_PASSPOINT=1 -DCFG_HS20_DEBUG=1 -DCFG_MET_PACKET_TRACE_SUPPORT=1 -DCFG_MET_TAG_SUPPORT=0 -DCFG_TC3_FEATURE=0 -DCFG_TC10_FEATURE=0 -DCONFIG_MTK_MD_SUPPORT=1 -DCFG_TC1_FEATURE=0 -DCFG_SUPPORT_NAN=0 -DDBG=0 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/nic -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/mgmt -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/include/chips -I../drivers/misc/mediatek/base/power/include/ -I../drivers/misc/mediatek/include/mt-plat/ -I../drivers/misc/mediatek/performance/include/ -I../drivers/misc/mediatek/emi/mt6785 -I../drivers/misc/mediatek/emi/submodule -I../drivers/misc/mediatek/pmic/include/ -I../drivers/misc/mediatek/power_throttling/ -I../drivers/misc/mediatek/connectivity/common -I../drivers/devfreq/ -I../net -I../drivers/misc/mediatek/connectivity/connfem/include/ -DCFG_MTK_MDDP_SUPPORT=0 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/common/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/axi/include -DCONFIG_WLAN_DRV_BUILD_IN=1 -DCFG_SUPPORT_PKT_OFLD=0 -DCONFIG_WLAN_SERVICE=1 -DCONFIG_TEST_ENGINE_OFFLOAD=1 -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/service/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/osal/include -Idrivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/hal/include}]
+$MTK_WLAN_SERVICE is [{wlan_service/agent/agent.o wlan_service/service/service_test.o wlan_service/service/test_engine.o wlan_service/glue/osal/gen4m/sys_adaption_gen4m.o wlan_service/glue/osal/gen4m/net_adaption_gen4m.o wlan_service/glue/hal/gen4m/operation_gen4m.o}]
+CONFIG_MTK_PLATFORM_CCCI := mt6785
+CONFIG_MTK_PLATFORM_CCCI := "mt6785"
+MTK_PLATFORM_CCCI := mt6785
+CONFIG_MTK_PLATFORM := mt6785
+CONFIG_MTK_PLATFORM := "mt6785"
+MTK_PLATFORM := "mt6785"
+CONFIG_MTK_PLATFORM := mt6785
+CONFIG_MTK_PLATFORM := "mt6785"
+MTK_PLATFORM := "mt6785"
+  UPD     kernel/config_data.h
+  CC      kernel/configs.o
+ION:enable mtk ion
+"CONFIG_MICROTRUST_TEE_VERSION="400""
+"CONFIG_MICROTRUST_TEE_SUPPORT=y"
+"CONFIG_MICROTRUST_TZ_DRIVER=y"
+"CONFIG_MICROTRUST_VFS_DRIVER=y"
+"CONFIG_MICROTRUST_FP_DRIVER=y"
+"CONFIG_MICROTRUST_DEBUG="
+"CONFIG_MICROTRUST_TEST_DRIVERS="
+  AR      drivers/misc/mediatek/eccci/built-in.a
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/plat/mt6785/plat_priv.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/agent/agent.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/service/service_test.o
+************  drivers/trusty/mtee-kree mk ************
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/service/test_engine.o
+imgsensor drv by platform ov64b40semco_mipi_raw/ ov64b40ofilm_mipi_raw/ ov13b10sunny_mipi_raw/ ov13b10ofilm_mipi_raw/ imx355ofilm_mipi_raw/ imx355sunny_mipi_raw/ ov02b1bofilm_mipi_raw/ gc02m1ofilm_mipi_raw/ gc02m1sunny_mipi_raw/ gc02m1bsunny_mipi_mono/
+imgsensor drv by platform 
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/osal/gen4m/sys_adaption_gen4m.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/osal/gen4m/net_adaption_gen4m.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_service/glue/hal/gen4m/operation_gen4m.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/common/dump.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/common/wlan_lib.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/common/wlan_oid.o
+M4U platform folder:"mt6785"
+M4U version:3.2
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/common/wlan_bow.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/common/debug.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/common/wlan_p2p.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/common/wlan_he.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_tx.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_txd_v1.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_rxd_v1.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_rx.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_pwr_mgt.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_rate.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/cmd_buf.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/que_mgt.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_cmd_event.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/nic_umac.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/nic/p2p_nic.o
+TCORE_UT_TESTS_SUPPORT = n
+TCORE_PROFILING_SUPPORT = n
+TCORE_PROFILING_AUTO_DUMP = n
+TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_init.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_kal.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_bow.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_wext.o
+  AR      drivers/misc/mediatek/vpu/built-in.a
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_wext_priv.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_ate_agent.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_qa_agent.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_hook_api.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_rst.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_cfg80211.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_proc.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_sys.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_vendor.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/platform.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_p2p.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_p2p_cfg80211.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_p2p_init.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/gl_p2p_kal.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/common/hal_pdma.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/common/kal_pdma.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/common/dbg_pdma.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/common/sw_wfdma.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/hif/axi/axi.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/ais_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/aaa_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/assoc.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/auth.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/bss.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/cnm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/cnm_timer.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/cnm_mem.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/hem_mbox.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/mib.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/privacy.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/rate.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/rlm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/rlm_domain.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/reg_rule.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/rlm_obss.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/rlm_protection.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/rrm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/rsn.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/saa_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/scan.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/scan_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/scan_cache.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/swcr.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/roaming_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/tkip_mic.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/hs20.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/tdls.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/wnm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/qosmap.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/ap_selection.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/wmm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/mddp.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/thrm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/mscs.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/ie_sort.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/stats.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_dev_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_dev_state.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_role_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_role_state.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_func.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_scan.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_ie.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_rlm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_assoc.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_bss.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_rlm_obss.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/p2p_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/mgmt/wapi.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/chips/common/cmm_asic_connac.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/chips/common/dbg_connac.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/chips/common/fw_dl.o
+  CC      drivers/misc/mediatek/connectivity/wlan/core/gen4m/chips/connac/connac.o
+../drivers/misc/mediatek/connectivity/wlan/core/gen4m/chips/common/fw_dl.c:2402:9: warning: ROM code supports SEM-CTRL for ROM patch download [-W#pragma-messages]
+ 2402 | #pragma message("ROM code supports SEM-CTRL for ROM patch download")
+      |         ^
+1 warning generated.
+  AR      drivers/misc/mediatek/connectivity/wlan/core/gen4m/built-in.a
+  AR      drivers/misc/mediatek/connectivity/built-in.a
+  AR      drivers/misc/mediatek/built-in.a
+  AR      drivers/misc/built-in.a
+  AR      drivers/built-in.a
+  CC      kernel/kheaders.o
+  AR      kernel/built-in.a
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.a
+  AR      built-in.a
+  MODPOST vmlinux.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  Building modules, stage 2.
+  MODPOST 0 modules
+  GZIP    arch/arm64/boot/Image.gz
+  DTC     arch/arm64/boot/dts/mediatek/mt6785.dtb
+  DTC     arch/arm64/boot/dts/mediatek/rosemary.dtbo
+../arch/arm64/boot/dts/mediatek/touchscreen.dtsi:28.3-16: Warning (reg_format): /fragment@0/__overlay__/goodix-gtx8@5d:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/touchscreen.dtsi:56.3-16: Warning (reg_format): /fragment@0/__overlay__/touch@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/cust_mt6785_fingerprint.dtsi:17.3-13: Warning (reg_format): /fragment@4/__overlay__/fpc_tee@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/rosemary.dts:46.3-16: Warning (reg_format): /fragment@9/__overlay__/mtk-usb@60:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/rosemary.dts:81.3-13: Warning (reg_format): /fragment@14/__overlay__/spi@3:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/wl2866d.dtsi:3.2-15: Warning (reg_format): /fragment@63/__overlay__/wl2866d@28:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/cust_aw87xxx_audio.dtsi:24.3-16: Warning (reg_format): /fragment@65/__overlay__/aw87xxx_pa_5B@5B:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/cust_aw87xxx_audio.dtsi:35.3-16: Warning (reg_format): /fragment@65/__overlay__/aw87xxx_pa_58@58:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/rosemary.dtbo: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/rosemary.dtbo: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/rosemary.dtbo: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+../arch/arm64/boot/dts/mediatek/touchscreen.dtsi:26.17-52.4: Warning (avoid_default_addr_size): /fragment@0/__overlay__/goodix-gtx8@5d: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/touchscreen.dtsi:26.17-52.4: Warning (avoid_default_addr_size): /fragment@0/__overlay__/goodix-gtx8@5d: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/touchscreen.dtsi:54.10-83.4: Warning (avoid_default_addr_size): /fragment@0/__overlay__/touch@0: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/touchscreen.dtsi:54.10-83.4: Warning (avoid_default_addr_size): /fragment@0/__overlay__/touch@0: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/cust_mt6785_fingerprint.dtsi:15.12-24.4: Warning (avoid_default_addr_size): /fragment@4/__overlay__/fpc_tee@0: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/cust_mt6785_fingerprint.dtsi:15.12-24.4: Warning (avoid_default_addr_size): /fragment@4/__overlay__/fpc_tee@0: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/rosemary.dts:44.13-48.4: Warning (avoid_default_addr_size): /fragment@9/__overlay__/mtk-usb@60: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/rosemary.dts:44.13-48.4: Warning (avoid_default_addr_size): /fragment@9/__overlay__/mtk-usb@60: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/rosemary.dts:79.17-84.4: Warning (avoid_default_addr_size): /fragment@14/__overlay__/spi@3: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/rosemary.dts:79.17-84.4: Warning (avoid_default_addr_size): /fragment@14/__overlay__/spi@3: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/wl2866d.dtsi:1.21-45.3: Warning (avoid_default_addr_size): /fragment@63/__overlay__/wl2866d@28: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/wl2866d.dtsi:1.21-45.3: Warning (avoid_default_addr_size): /fragment@63/__overlay__/wl2866d@28: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/cust_aw87xxx_audio.dtsi:22.19-31.4: Warning (avoid_default_addr_size): /fragment@65/__overlay__/aw87xxx_pa_5B@5B: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/cust_aw87xxx_audio.dtsi:22.19-31.4: Warning (avoid_default_addr_size): /fragment@65/__overlay__/aw87xxx_pa_5B@5B: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/cust_aw87xxx_audio.dtsi:33.19-42.4: Warning (avoid_default_addr_size): /fragment@65/__overlay__/aw87xxx_pa_58@58: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/cust_aw87xxx_audio.dtsi:33.19-42.4: Warning (avoid_default_addr_size): /fragment@65/__overlay__/aw87xxx_pa_58@58: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/rosemary/cust.dtsi:335.25-343.3: Warning (interrupts_property): /fragment@53/__overlay__: Missing interrupt-parent
+../arch/arm64/boot/dts/mediatek/mt6785.dts:6114.3-16: Warning (reg_format): /i2c6@11005000/speaker_amp@34:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/mt6785.dts:5947.3-16: Warning (reg_format): /i2c7@1101a000/bq2597x-standalone@65:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+../arch/arm64/boot/dts/mediatek/mt6785.dts:5989.3-16: Warning (reg_format): /i2c7@1101a000/ln8000_charger@51:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt6785.dtb: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt6785.dtb: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt6785.dtb: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+../arch/arm64/boot/dts/mediatek/mt6785.dts:6111.30-6116.4: Warning (avoid_default_addr_size): /i2c6@11005000/speaker_amp@34: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/mt6785.dts:6111.30-6116.4: Warning (avoid_default_addr_size): /i2c6@11005000/speaker_amp@34: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/mt6785.dts:5945.24-5986.4: Warning (avoid_default_addr_size): /i2c7@1101a000/bq2597x-standalone@65: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/mt6785.dts:5945.24-5986.4: Warning (avoid_default_addr_size): /i2c7@1101a000/bq2597x-standalone@65: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/mt6785.dts:5987.20-6025.4: Warning (avoid_default_addr_size): /i2c7@1101a000/ln8000_charger@51: Relying on default #address-cells value
+../arch/arm64/boot/dts/mediatek/mt6785.dts:5987.20-6025.4: Warning (avoid_default_addr_size): /i2c7@1101a000/ln8000_charger@51: Relying on default #size-cells value
+../arch/arm64/boot/dts/mediatek/mt6785.dts:656.11-697.4: Warning (gpios_property): /scp_dvfs: Missing property '#gpio-cells' in node /gpio@10005000 or bad phandle (referred from gpio[0])
+  CAT     arch/arm64/boot/Image.gz-dtb

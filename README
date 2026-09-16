@@ -1,0 +1,64 @@
+# Kernel Backport: BBRv3 Implementation
+
+This repository contains the backported implementation of TCP BBRv3 for the Linux kernel.
+
+## Overview
+
+BBRv3 (Bottleneck Bandwidth and RTT) provides optimized congestion control by modeling the network path to achieve high throughput and low latency. This backport integrates the latest BBRv3 logic into older kernel versions to improve network performance on Android devices.
+
+## Verification
+
+### 1. Kernel Configuration
+
+Ensure the kernel is compiled with BBR support:
+
+```bash
+zcat /proc/config.gz | grep BBR
+# Expected output:
+# CONFIG_TCP_CONG_BBR=y
+# CONFIG_DEFAULT_BBR=y
+
+```
+
+### 2. Kernel Symbols
+
+Verify that the BBRv3 functions are correctly linked within the kernel memory:
+
+```bash
+grep "bbr" /proc/kallsyms
+
+```
+
+### 3. Runtime Statistics
+
+Monitor active connections to confirm BBRv3 pacing and congestion window management:
+
+```bash
+ss -tio
+
+```
+### BBRv3 Runtime Stats (ss -tio)
+![Socket Statistics](https://raw.githubusercontent.com/ZeroKelvinProject/Elea-4.19-android-bbr3/lineage-23.2/assets/Screenshot_20260528_135422.png)
+
+![Socket Statistics](https://raw.githubusercontent.com/ZeroKelvinProject/Elea-4.19-android-bbr3/lineage-23.2/assets/Screenshot_20260528_135446.png)
+
+*Note: Look for `bbr:(bw:..., pacing_gain:2.77344, cwnd_gain:2)` in the output.*
+
+## Usage
+
+Once the kernel is installed, BBRv3 will be the default congestion control algorithm. You can verify the currently active algorithm using:
+
+```bash
+cat /proc/sys/net/ipv4/tcp_congestion_control
+
+```
+### Network Verification
+![Network Verification](https://raw.githubusercontent.com/ZeroKelvinProject/Elea-4.19-android-bbr3/lineage-23.2/assets/Screenshot_20260528_135542.png)
+## Requirements
+
+* Root access required for verifying kernel symbols and monitoring socket statistics.
+* Kernel version compatible with the provided patchset.
+
+---
+
+*For more detailed kernel documentation, please refer to the official [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/).*
