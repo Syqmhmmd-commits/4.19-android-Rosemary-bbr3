@@ -152,24 +152,6 @@ Kontribusi diterima dengan senang hati! Caranya:
 - Test dulu sebelum submit PR
 - Jangan hapus credit/attribution yang ada
 
-## 🐛 Bug Reports
-
-Kalau nemu bug:
-
-1. Cek dulu di **[Issues](https://github.com/Syqmhmmd-commits/4.19-android-Rosemary-bbr3/issues)** — mungkin udah ada yang lapor
-2. Kalau belum, **bikin issue baru** dengan info:
-   - Versi kernel (`uname -r`)
-   - ROM yang dipakai
-   - Log error (kalau ada)
-   - Langkah reproduksi
-
-## 📬 Contact
-
-- **GitHub**: [@Syqmhmmd-commits](https://github.com/Syqmhmmd-commits)
-- **Email**: dara290304@gmail.com
-- **Repo Release**: [StormTerror-Rosemary-BBRv3](https://github.com/Syqmhmmd-commits/StormTerror-Rosemary-BBRv3)
-
----
 
 
 
